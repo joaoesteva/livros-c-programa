@@ -33,7 +33,7 @@ int main() {
 
     printf("Digite uma frase: ");
     fgets(frase, sizeof(frase), stdin);
-    frase[strcspn(frase, "\n")] = 0; // Remover newline
+    frase[strcspn(frase, "\n")] = 0; 
 
     printf("Frase digitada: %s\n", frase);
 
